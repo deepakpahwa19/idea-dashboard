@@ -1,0 +1,36 @@
+.idea-card {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    margin: 10px;
+    /* border: 1px solid grey; */
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.idea-card:hover .idea-button-group {
+    display: block;
+}
+
+.idea-title {
+    margin: 10px auto 0;
+}
+
+.idea-card p {
+    margin: 10px auto;
+    font-size: 0.8rem;
+}
+
+.idea-button-group {
+    text-align: right;
+    display: none;
+}
+
+
+.idea-button-group svg {
+    margin-left: 10px;;
+}

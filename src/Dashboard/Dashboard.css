@@ -1,0 +1,12 @@
+.idea-dashboard {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    overflow-x: auto;
+    padding: 1%;
+}
